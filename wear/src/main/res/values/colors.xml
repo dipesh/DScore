@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#000000</color>
+    <color name="background2">#000088</color>
+    <color name="analog_hands">#cccccc</color>
+    <color name="digital_text">#ffffff</color>
+    <color name="dscore_blue">#009ED6</color>
+    <color name="abacus_red">#c73333</color>
+    <color name="abacus_green">#009541</color>
+    <color name="abacus_grey">#737473</color>
+
+
+    <color name="abstract_red">#ef1c21</color>
+
+    <color name="classiqueWhiteGrey">#c0c0c0</color>
+    <color name="classiqueWhiteAmbientGrey">#393c39</color>
+
+    <color name="px84Black">#84000000</color>
+    <color name="pxInitialColor">#f7f7ff</color>
+</resources>

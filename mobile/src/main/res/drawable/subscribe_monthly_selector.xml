@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/subscribe_monthly_pressed" android:state_pressed="true" />
+    <item >
+        <layer-list>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/subscribe_monthly"/>
+            </item>
+
+            <item>
+                <shape
+                    android:shape="rectangle" >
+                    <solid android:color="@color/transparent" />
+                    <stroke
+                        android:width="2dp"
+                        android:color="@color/gray" />
+                    <corners android:radius="4dp" />
+                </shape>
+            </item>
+        </layer-list>
+
+    </item>
+</selector>

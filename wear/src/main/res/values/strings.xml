@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DScore</string>
+    <string name="dscore_digital">DScore OB Digital</string>
+    <string name="dscore_abacus">DScore Abacus</string>
+    <string name="dscore_abstract">DScore Abstract</string>
+    <string name="dscore_analog">DScore Vanier</string>
+    <string name="dscore_analog_classic">DScore Classique Black</string>
+    <string name="dscore_analog_classic_white">DScore Classique White</string>
+    <string name="dscore_blair">DScore Blair</string>
+    <string name="dscore_vendome">DScore Vendome</string>
+    <string name="dscore_px">DScore PX</string>
+</resources>

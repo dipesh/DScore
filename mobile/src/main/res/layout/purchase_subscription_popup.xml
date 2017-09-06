@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subscribeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/androidGrayBackground"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/subscribe_monthly_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:onClick="purchaseMonthlySubscriptionClick"
+        android:src="@drawable/subscribe_monthly_selector" />
+
+    <ImageButton
+        android:id="@+id/subscribe_yearly_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:onClick="purchaseYearlySubscriptionClick"
+        android:src="@drawable/subscribe_yearly_selector" />
+</LinearLayout>

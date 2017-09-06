@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/subscribeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="15dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/subscriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/subscribe_text"
+        android:textSize="18sp" />
+
+    <!--<ImageButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="15dp"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:background="#00000000"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:onClick="purchaseMonthlySubscriptionClick"-->
+        <!--android:src="@drawable/subscribe_monthly_selector" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/promoCodeEditText"
+        android:hint="@string/promo_code"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="#00000000"
+        android:scaleType="centerCrop"
+        android:onClick="purchaseYearlySubscriptionClick"
+        android:src="@drawable/subscribe_yearly_selector" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/subscribe_end_text"
+        android:autoLink="email"
+        android:textSize="14sp" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="#2647a4"
+        app:pstsIndicatorColor="#cbe1d9"
+        app:pstsShouldExpand="true"
+        app:pstsTabPaddingLeftRight="14dp"
+        app:pstsIndicatorHeight="2dp"
+        android:visibility="gone"
+        >
+
+    </com.astuetz.PagerSlidingTabStrip>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+    <include layout="@layout/start_trial_layout" />
+    <include layout="@layout/purchase_subscription_layout" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_grade_white_48dp"
+        android:title="@string/favorite"
+        app:showAsAction="ifRoom"/>
+    <!--<item-->
+        <!--android:id="@+id/action_subscribe"-->
+        <!--android:icon="@drawable/subcribe2"-->
+        <!--android:title="@string/subscribe"-->
+        <!--&lt;!&ndash;app:showAsAction="always"/>&ndash;&gt;-->
+    <!--Settings, should always be in the overflow-->
+    <item android:id="@+id/action_rate"
+        android:title="@string/rate"
+        app:showAsAction="never"/>
+    <item android:id="@+id/action_feedback"
+        android:title="@string/feedback"
+        app:showAsAction="never"/>
+</menu>

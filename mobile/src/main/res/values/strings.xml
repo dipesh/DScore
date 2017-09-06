@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DScore</string>
+    <string name="settings">Settings</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="subscribe_text">"We hope you have been enjoying following your favorite games and teams with DScore.
+You can continue enjoying the app for the low price of $4.95/yr. Please tap below to finalize this subscription.
+\nThanks!
+\n- The Thexabyte Team"</string>
+    <string name="subscribe_end_text">Please contact us with any questions that you may have at dscore@thexabyte.com</string>
+    <string name="trial_text">Welcome to DScore. Please tap the button below to start your free 10 days of access.
+We are sure that you will love the app, and after your 10 days of free access, you can subscribe for a year for just $4.95/yr.
+Don\'t worry though. You wont be charged unless you select to subscribe.
+\nThanks for Downloading and we hope you love the app as much as we liked making it for you!
+\n- The Thexabyte Team"\n</string>
+    <string name="favorite">Favorites</string>
+    <string name="rate">Rate this app</string>
+    <string name="feedback">Send us feedback</string>
+    <string name="network_connection_unavailable">Network connection unavailable</string>
+    <string name="foreground_service_text">Sending data to watch.</string>
+    <string name="promo_code">Promo Code</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">914326328677094</string>
+</resources>
